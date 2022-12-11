@@ -39,7 +39,7 @@ package() {
     done < <(find "${pkgdir}/opt/onlyoffice/desktopeditors" -maxdepth 1 -type f -name 'asc-de-*.png' -print0)
 
     # update to jiafei's icon
-    # patch ${pkgdir}/usr/share/applications/onlyoffice-desktopeditors.desktop desktop.patch
+    patch ${pkgdir}/usr/share/applications/onlyoffice-desktopeditors.desktop desktop.patch
     mkdir -p ${pkgdir}/usr/share/icons/cvm-ui-icons
     cp ${srcdir}/word.png ${pkgdir}/usr/share/icons/cvm-ui-icons/
     

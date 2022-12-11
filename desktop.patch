@@ -1,5 +1,13 @@
---- pkg/onlyoffice-cvm/usr/share/applications/onlyoffice-desktopeditors.desktop	2022-12-08 16:22:05.000000000 +0700
-+++ pkg/onlyoffice-cvm/usr/share/applications/onlyoffice-desktopeditors.new.desktop	2022-12-08 16:28:33.621369834 +0700
+--- pkg/jiaoffice/usr/share/applications/onlyoffice-desktopeditors.desktop	2022-12-11 16:24:47.000000000 +0700
++++ pkg/jiaoffice/usr/share/applications/onlyoffice-desktopeditors.new.desktop	2022-12-11 16:32:52.443429913 +0700
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Version=1.0
+-Name=ONLYOFFICE Desktop Editors
++Name=JIΛoffice
+ GenericName=Document Editor
+ GenericName[ru]=Редактор документов
+ Comment=Edit office documents
 @@ -8,7 +8,7 @@
  Type=Application
  Exec=/usr/bin/onlyoffice-desktopeditors %U
